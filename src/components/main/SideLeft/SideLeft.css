@@ -1,0 +1,95 @@
+.SideLeft-space {
+  width: 25%;
+
+  display: flex;
+  padding: 5px 0px;
+}
+.SideLeft-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SideLeft-top {
+  width: 97%;
+  border-radius: 1em;
+  background-color: rgb(18, 18, 18);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-links {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.top-links p {
+  color: rgb(179, 179, 179);
+  margin-left: 20px;
+}
+.SideLeft-bottom {
+  width: 97%;
+  border-radius: 1em;
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  margin-top: 10px;
+}
+
+.bottom-header {
+  margin-left: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-library {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: rgb(179, 179, 179);
+  cursor: pointer;
+}
+.button-library p {
+  margin-left: 20px;
+  color: rgb(179, 179, 179);
+}
+.buttons-actions {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.buttons-actions button {
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  margin-left: 10px;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.buttons-actions button:hover {
+  background-color: rgb(42, 42, 42);
+  transition: 0.3s ease-in-out;
+}
+.buttons-actions button:hover > svg {
+  fill: white;
+  transition: 0.3s ease-in-out;
+}
+.hover-white {
+  transition: 0.3 ease-in-out;
+}
+.hover-white:hover > svg,
+p {
+  fill: white;
+  color: white;
+  transition: 0.3 ease-in-out;
+}
+.hover-white:hover > p {
+  color: white;
+  transition: 0.3 ease-in-out;
+}
