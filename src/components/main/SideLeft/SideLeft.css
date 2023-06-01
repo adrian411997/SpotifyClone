@@ -1,13 +1,10 @@
 .SideLeft-space {
   width: 25%;
-
   display: flex;
-  padding: 5px 0px;
 }
 .SideLeft-container {
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
