@@ -1,6 +1,9 @@
 export const artistas = [
   {
+    id: 1,
     class: "artista",
+    fondo:
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1685588871/SpotifyClone/images_tkfugo.jpg",
     name: "Eminem",
     photo:
       "https://res.cloudinary.com/dni5cjwpu/image/upload/v1685565411/SpotifyClone/16661328920205_yvh1qa.jpg",
