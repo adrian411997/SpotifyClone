@@ -1,6 +1,7 @@
 import React from "react";
 import "./SideRight.css";
 import { artistas } from "../../../data/Datos";
+import { Link } from "react-router-dom";
 
 const SideRigth = () => {
   return (
@@ -34,7 +35,7 @@ const SideRigth = () => {
             </div>
             <div className="artistas-cards">
               {artistas.map((ar, index) => (
-                <div className="artistas-card">
+                <Link to={`/artista/${ar.id}`} className="artistas-card">
                   <div
                     style={{
                       backgroundImage: `url(${ar.photo})`,
@@ -49,7 +50,7 @@ const SideRigth = () => {
                   <div className="artista-define">
                     <h4>{ar.class}</h4>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

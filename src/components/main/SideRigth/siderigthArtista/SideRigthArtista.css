@@ -1,0 +1,22 @@
+.artista-info-body {
+  padding-top: 200px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  border-radius: 1em;
+}
+.info-title {
+  width: 100%;
+  display: flex;
+  color: white;
+}
+.artista-songs {
+  padding-left: 20px;
+  color: white;
+}
+.table-list {
+  padding-left: 30px;
+}
+.song-row:hover {
+  background-color: rgb(187, 186, 186);
+}
